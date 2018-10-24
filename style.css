@@ -97,8 +97,8 @@ body{
 
 .starWars{
     float: left;
-    padding: 50px 200px 50px 50px;
-    margin: 0px 30px 50px 7%;
+    padding: 50px;
+    margin: 0px 3% 50px 12%;
     border: solid 1px #687a8f;
     background-color: black;
     
