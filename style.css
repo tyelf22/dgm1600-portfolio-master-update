@@ -87,34 +87,77 @@ body{
     display: inline-block;
     
 }
+
+/* Beginning of star wars styling*/
 .images{
     background-color: #687a8f;
+    display: flex;
 }
 .images img{
-    margin-left: 10%;
-    margin-top: 10px;
+    flex: 1;
+    border: 1px solid #687a8f;
 }
 
-.starWars{
-    float: left;
-    padding: 50px;
-    margin: 0px 3% 50px 12%;
-    border: solid 1px #687a8f;
-    background-color: black;
+.pageBackground{
+    display: flex;
+    width: 100%;
     
 
 }
-.starWars h2 {
+.starWars1{
+    border: solid 1px #687a8f;
+    background-color: black;
     color: white;
+    flex: 1;
+}
+.starWars2{
+    border: solid 1px #687a8f;
+    background-color: black;
+    color: white;
+    flex: 1;
+    align-items: center;
+}
+.starWars3{
+    border: solid 1px #687a8f;
+    background-color: black;
+    color: white;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
-.starWars ul li{
-    color: white;
-    list-style-type: upper-roman;
+#theTitles {
+    text-align: center;
 }
-.starWars p{
-    color: white;
+
+#allMovieTitles {
+    list-style-type: none;
+    text-align: center;
 }
+
+#directorsTitle {
+    text-align: center;
+    width: 100%;
+}
+
+#directors {
+    text-align: center;
+    list-style-type: none;
+}
+
+#movieTitle {
+    text-align: center;
+    width: 100%;
+}
+
+#openingCrawl {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+
+
 
 .pageBackground p {
     width: 200px;
